@@ -1,3 +1,8 @@
+# Multilingual Website
+
+This is a multilingual website that supports three languages: English, Hindi, and Spanish. Users can select their preferred language from the settings to change the website's content accordingly.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
