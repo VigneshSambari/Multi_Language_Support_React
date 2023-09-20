@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.main {
+    @apply w-screen h-screen;
+}
+
+.gradient {
+    background-image: radial-gradient(
+        at 27% 37%,
+        hsla(215, 98%, 61%, 1) 0px,
+        transparent 0%
+      ),
+      radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+      radial-gradient(at 52% 99%, rgb(231, 240, 134) 0px, transparent 50%),
+      radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+      radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+      radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+      radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(150%);
+    opacity: 0.15;
+}
+
+.navbar {
+    @apply fixed flex justify-between items-center h-10 top-0 right-0 left-0 
+           px-5 text-white text-sm bg-primary-color md:px-16 z-50;
+}
+
+.nav-buttons-selected {
+    @apply bg-white bg-opacity-10 rounded-sm cursor-pointer md:px-2 md:py-1 px-1 py-0.5;
+}
+
+.nav-buttons-not-selected {
+    @apply hover:bg-white hover:bg-opacity-10 hover:rounded-sm cursor-pointer 
+             md:px-2 md:py-1 px-1 py-0.5;
+}
+
+.justify-items-center {
+    @apply justify-center items-center;
+}
+
+.content-fill {
+    @apply flex flex-col w-full px-5 md:px-40 pt-5 font-mono;
+}
+
+.dropdown-button {
+    @apply inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 
+         bg-white border border-gray-300 rounded-md hover:bg-gray-50 
+           focus:outline-none focus:ring focus:ring-opacity-50;
+}
+
+.dropdown {
+    @apply absolute right-0 w-48 mt-2 origin-top-right bg-white border border-gray-300 
+            rounded-md shadow-lg ring-1 ring-black ring-opacity-5;
+}

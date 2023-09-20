@@ -1,0 +1,20 @@
+{
+    "title": "MultiLang",
+    "home": {
+        "content": "This is a multilingual website. You can navigate to the <strong><i style='color: #9333EA;'>Settings</i></strong> and select your preferred language from the dropdown menu to change the content of the website. We offer three <strong><i style='color: #9333EA;'>English, Hindi, Spanish</i></strong>. Simply choose your desired language, and the website's content will adapt accordingly.",
+        "title": "Home"
+    },
+    "about": {
+        "content": "This is an assignment for the role React developer, supports multiple languages, currently supports only English, Spanish, Hindi. Made by <strong><i style='color: #9333EA;'>Sambari Vignesh</i></strong>, <strong><i style='color: #9333EA;'>vigneshsambari1901@gmail.com</i></strong>!",
+        "title": "About"
+    },
+    "settings": {
+        "title": "Settings",
+        "selectLanguage": "Select Language"
+    },
+    "navItems": {
+        "home": "Home",
+        "about": "About",
+        "settings": "Settings"
+    }
+}

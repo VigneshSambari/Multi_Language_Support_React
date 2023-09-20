@@ -1,0 +1,20 @@
+{
+    "title": "Multilingüe",
+    "home": {
+        "content": "Este es un sitio web multilingüe. Puede navegar a la <strong><i style='color: #9333EA;'>Configuración</i></strong> y seleccionar su idioma preferido en el menú desplegable para cambiar el contenido del sitio web. Ofrecemos tres idiomas <strong><i style='color: #9333EA;'>inglés, hindi, español</i></strong>. Simplemente elija su idioma deseado y el contenido del sitio web se adaptará en consecuencia.",
+        "title": "Inicio"
+    },
+    "about": {
+        "content": "Esta es una tarea para el puesto de desarrollador de React, que admite varios idiomas, actualmente solo admite inglés, español, hindi. Creado por <strong><i style='color: #9333EA;'>Sambari Vignesh</i></strong>, <strong><i style='color: #9333EA;'>vigneshsambari1901@gmail.com</i></strong>!",
+        "title": "Acerca de"
+    },
+    "settings": {
+        "title": "Configuración",
+        "selectLanguage": "Seleccionar Idioma"
+    },
+    "navItems": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "settings": "Configuración"
+    }
+}
