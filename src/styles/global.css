@@ -30,7 +30,7 @@
 
 .navbar {
     @apply fixed flex justify-between items-center h-10 top-0 right-0 left-0 
-           px-5 text-white text-sm bg-primary-color md:px-16 z-50;
+           px-5 text-white text-sm bg-primary-color md:px-16 z-50 select-none;
 }
 
 .nav-buttons-selected {
