@@ -1,4 +1,4 @@
-import i18n from "../../i18n"; 
+import i18n from "../../language_translation/i18n"; 
 import { useTranslation } from "react-i18next";
 
 import LanguageDropdown from "./language_dropdown";
@@ -12,7 +12,7 @@ const Settings = () => {
     return (
         <div className="content-fill">
             <div className="font-semibold">{t(translationLangRef.settings.title)}</div>
-            <div className="flex flex-row justify-between w-full pt-2 text-center">
+            <div className="flex flex-row justify-between items-center w-full pt-2 ">
                 <div className="text-purple-700 pb-2">
                     {t(translationLangRef.settings.selectLang)}
                 </div>
